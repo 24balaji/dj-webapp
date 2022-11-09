@@ -33,9 +33,7 @@ body {
 
 canvas
 {
-    animation-name:example ;
-    animation-duration: 4.5s;
-    animation-iteration-count: infinite;
+  
     background-color:lightgrey;
     border: 5px double rgba(44, 129, 240, 0.808);
     border-radius: 20px;
@@ -43,11 +41,7 @@ canvas
     float: none;
   }
   
-  @keyframes example {
-      
-     from{box-shadow: 1px 1px 38px rgb(8, 225, 253);}
-     to{box-shadow: 1px 1px 38px rgb(180, 241, 9);}
-  }
+  
 
 
 
